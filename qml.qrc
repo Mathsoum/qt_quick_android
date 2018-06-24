@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Page1Form.ui.qml</file>
+        <file>Page2Form.ui.qml</file>
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>StartButton.qml</file>
+        <file>TimeText.qml</file>
+        <file>MainColumn.qml</file>
+        <file>beep-09.wav</file>
+        <file>SpacerItem.qml</file>
+    </qresource>
+</RCC>
