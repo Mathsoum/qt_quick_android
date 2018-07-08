@@ -58,7 +58,7 @@ ColumnLayout {
     function pad(num, size){ return ('00' + num).substr(-size); }
 
     function counterToText(_counter) {
-        return pad(Math.floor(_counter / 6000), 2) + ":" + pad(Math.floor(_counter / 100), 2) + "." + pad(Math.floor(_counter % 100), 2) + ""
+        return pad(Math.floor((_counter / 6000) % 60), 2) + ":" + pad(Math.floor((_counter / 100) % 60), 2) + "." + pad(Math.floor(_counter % 100), 2) + ""
     }
 
     ColumnLayout {
